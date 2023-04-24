@@ -22,10 +22,10 @@ app.get('/', (req, res) => {
   res.send('Hello to college erp API');
 });
 
-app.use(express.static('/client/build'));
+app.use(express.static('./client/build'));
 
 app.get('*', function (req, res) {
-  res.sendFile(path.join('/client/build/index.html'));
+  res.sendFile(path.join('./client/build/index.html'));
 });
 
 mongoose
