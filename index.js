@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import path from 'path';
 
 import adminRoutes from './routes/adminRoutes.js';
 import studentRoutes from './routes/studentRoutes.js';
@@ -23,10 +22,10 @@ app.get('/', (req, res) => {
   res.send('Hello to college erp API');
 });
 
-app.use(express.static(path.join(__dirname, './client/build')));
+app.use(express.static('/client/build'));
 
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, './client/build/index.html'));
+  res.sendFile(path.join('/client/build/index.html'));
 });
 
 mongoose
