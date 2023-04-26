@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6329eba4.css",
-    "main.js": "/static/js/main.872937f4.js",
+    "main.js": "/static/js/main.7d338ebf.js",
     "static/media/groupphoto.jpeg": "/static/media/groupphoto.7c95a4796e6d03ac192b.jpeg",
     "static/media/it_cvr_logo1.jpg": "/static/media/it_cvr_logo1.ae130a62ebd6e4f748cf.jpg",
     "static/media/hod_photo.jpg": "/static/media/hod_photo.d7930c540e2b084669aa.jpg",
@@ -12,10 +12,10 @@
     "static/media/nittygrittyimage4.jpg": "/static/media/nittygrittyimage4.504c16a2a09521e41306.jpg",
     "index.html": "/index.html",
     "main.6329eba4.css.map": "/static/css/main.6329eba4.css.map",
-    "main.872937f4.js.map": "/static/js/main.872937f4.js.map"
+    "main.7d338ebf.js.map": "/static/js/main.7d338ebf.js.map"
   },
   "entrypoints": [
     "static/css/main.6329eba4.css",
-    "static/js/main.872937f4.js"
+    "static/js/main.7d338ebf.js"
   ]
 }
